@@ -14,17 +14,14 @@ html {
     padding: 15px;
     line-height: 1.6;
     background-image: url("../graphics/notes.jpg");
-    min-width: 1200px;
     background-repeat: no-repeat;
     background-size: cover;
     resize: horizontal;
     overflow: auto;
-    /* background-size: 1300px auto; */
-    /* @media (max-width: 500px) {
-        .form {
-           display: flex;
-           flex-direction: column;
-           flex-basis: 1;
-        }
-    } */
+}
+
+@media (max-width: 1220px) {
+    .body {
+        background-size: 1220px auto;
+    }
 }

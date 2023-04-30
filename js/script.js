@@ -19,14 +19,15 @@ formElement.addEventListener("submit", (event) => {
     switch (currency) {
         case "PLN":
             result = amount * ratePLN;
-
             break;
+
         case "EUR":
             result = amount * rateEUR;
-
             break;
+
         case "USD":
             result = amount * rateUSD;
+            break;
 
         case "THB":
             result = amount * rateTHB;

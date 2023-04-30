@@ -31,6 +31,21 @@ html {
     justify-content: center;
     align-items: center;
     background-color: bisque;
+    background: linear-gradient(to right, #FFA500, #FFFF00, #FFA500);
+    background-size: 200% 100%;
     width: 550px;
     height: 400px;
 }
+
+.container {
+    animation: wave 3s linear infinite;
+}
+
+@keyframes wave {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }

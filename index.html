@@ -27,11 +27,27 @@
                     <span class="form__labelText">
                         Great Britain Pound*
                     </span>
-                    <input placeholder="amount">
+                    <input placeholder="amount" class="form__field js-amount" type="number" required step="0.01">
                 </label>
             </p>
-            <p></p>
-            <p></p>
+            <p>
+                <label>
+                    <span class="form__labelText">
+                        Currency
+                    </span>
+                    <select class="form__currency js-currency" name="currency">
+                        <option value="pln" selected>PLN</option>
+                        <option value="eur">EUR</option>
+                        <option value="usd">USD</option>
+                        <option value="czk">CZK</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <button class="form__button js-button">Convert</button>
+            </p>
+            <p class="form__info">Currencies are from...</p>
+            <p class="form__result js-result"></p>
         </form>
     </div>
 </body>

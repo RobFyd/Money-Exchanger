@@ -1,3 +1,10 @@
+.form__header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+
 .form__labelText {
     display: inline-block;
     width: 200px;
@@ -37,15 +44,30 @@
     color: black;
     padding: 12px;
     border-radius: 3px;
+    font-weight: bold;
     font-size: large;
     box-shadow: -7px 7px 5px hsl(0, 0%, 25%);
 }
 
 .form__button:hover {
     cursor: pointer;
-    background-color: hsl(46, 100%, 30%);
+    background-color: #ffffca;
 }
 
 .form__button:active {
-    background-color: hsl(46, 100%, 35%);
+    background-color: #ffff89;
+}
+
+.result__container {
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: -7px 7px 5px hsl(0, 0%, 25%);
+}
+
+.form__result {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
 }

@@ -28,7 +28,7 @@ html {
 .container {
     flex-basis: 600px;
     margin: 20px;
-    padding: 40px;
+    padding: 5px 40px;
     border-radius: 10px;
     box-shadow: -35px 35px 25px black;
     background: linear-gradient(to right, #ffffca, #ffff89, #ffffca, #ffff89, #ffffca);

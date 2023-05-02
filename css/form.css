@@ -5,6 +5,20 @@
     font-size: 40px;
 }
 
+.form__label {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 580px) {
+    .form__label {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
 .form__labelText {
     display: inline-block;
     width: 200px;
@@ -21,6 +35,12 @@
     box-shadow: -7px 7px 5px hsl(0, 0%, 25%);
 }
 
+@media (max-width: 580px) {
+    .form__field {
+        width: 100%;
+    }
+}
+
 .form__field:hover {
     cursor: pointer;
 }
@@ -31,6 +51,12 @@
     width: 250px;
     border-radius: 3px;
     box-shadow: -7px 7px 5px hsl(0, 0%, 25%);
+}
+
+@media (max-width: 580px) {
+    .form__currency {
+        width: 100%;
+    }
 }
 
 .form__currency:hover {

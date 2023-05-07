@@ -9,7 +9,7 @@ This is my first tool for currency conversion. I created it as part of the "Fron
 
 ### Demo
 
-![add demo]()
+![add demo](gifs\exchangerNewGif.gif)
 
 My first page contains:
 - HTML
@@ -20,7 +20,7 @@ My first page contains:
 
 My logo:
 
-![LOGO](./graphics\RFLogo.png)
+![LOGO](graphics\RFLogo.png)
 
 If you want to learn more and test the functionality of my converter, click below:
 

@@ -9,7 +9,7 @@ This is my first tool for currency conversion. I created it as part of the "Fron
 
 ### Demo
 
-![add demo](gifs\exchangerNewGif.gif)
+![add demo](https://github.com/RobFyd/Money-Exchanger-in-React/blob/main/public/exchangerNewGif.gif)
 
 My first page contains:
 - HTML
@@ -20,7 +20,7 @@ My first page contains:
 
 My logo:
 
-![LOGO](graphics\RFLogo.png)
+![LOGO](https://github.com/RobFyd/Money-Exchanger-in-React/blob/main/public/RFLogo.png)
 
 If you want to learn more and test the functionality of my converter, click below:
 

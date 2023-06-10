@@ -9,7 +9,7 @@ This is my first tool for currency conversion. I created it as part of the "Fron
 
 ### Screen shot
 
-
+![Ss](graphics/exch.png)
 
 My first page contains:
 - HTML

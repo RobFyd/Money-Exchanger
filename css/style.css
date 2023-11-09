@@ -40,9 +40,10 @@ html {
 
 @keyframes wave {
     from {
-      background-position: 0 0;
+        background-position: 0 0;
     }
+
     to {
-      background-position: 300% 0;
+        background-position: 300% 0;
     }
-  }
+}

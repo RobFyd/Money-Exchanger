@@ -22,9 +22,7 @@
 
   const updateResultText = (amount, result, currency) => {
     const resultElement = document.querySelector(".js-result");
-    resultElement.innerHTML = `${amount.toFixed(2)} GBP =<br>${result.toFixed(
-      2
-    )} ${currency}`;
+    resultElement.innerHTML = `${amount.toFixed(2)} GBP =<br>${result.toFixed(2)} ${currency}`;
   };
 
   const onFormSubmit = (event) => {

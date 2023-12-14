@@ -11,7 +11,10 @@ This is my first tool for currency conversion. I created it as part of the "Fron
 
 ![Ss](graphics/exch.png)
 
-My first page contains:
+### My first page contains:
+
+![TechnologiesIcons](https://skillicons.dev/icons?i=html,css,js,github,vscode)
+
 - HTML
 - CSS
 - JS

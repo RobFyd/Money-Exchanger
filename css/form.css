@@ -1,3 +1,9 @@
+.form__date {
+    margin-top: 30px;
+    line-height: 1;
+    font-style: italic;
+}
+
 .form__header {
     display: flex;
     justify-content: center;
@@ -103,4 +109,5 @@
 .form__info {
     margin-top: 30px;
     line-height: 1;
+    font-style: italic;
 }
